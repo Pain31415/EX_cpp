@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{51d15687-e3cc-4d87-a574-e3531a78102c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File_manager">
+      <UniqueIdentifier>{f809e183-455e-45f2-889d-e1ae05340da3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="file_manager.cpp">
+      <Filter>File_manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="file_manager.h">
+      <Filter>File_manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
